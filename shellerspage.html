@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheller's page</title>
+</head>
+<body>
+     <div class="container">
+    <div id="main" class="card card-body">
+    <h2 class="title">Sheller's page</h2>
+    <form id="addForm" class="form-inline mb-3">
+        <label for="amount">Shelling price</label>
+      <input type="number" class="form-control mr-2" id="amount">
+      <label for="product">Product name</label>
+      <input type="text" id="product">
+      <label for="category">Choose category</label>
+      <select id="category">
+        <option value="electronics">Electronics</option>
+        <option value="skincare">Skincare</option>
+        <option value="food">Food</option>
+        <option value="wearables">Wearables</option>
+        </select>
+      <input type="submit" class="btn btn-dark" value="Submit">
+
+    </form>
+    <h2 class="title">Product List</h2>
+    <ul id="electronics" class="list">
+        <h3>Electronics</h3>
+    </ul>
+    <ul id="skincare" class="list">
+        <h3>Skincare</h3>
+    </ul>
+    <ul id="food" class="list">
+        <h3>Food</h3>
+    </ul>
+    <ul id="wearables" class="list">
+        <h3>Wearables</h3>
+    </ul>
+   </div>
+   </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+<script src="shellerspage.js"></script>
+<link rel="stylesheet" href="shellerspage.css">
+</html>

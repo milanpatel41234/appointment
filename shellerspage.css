@@ -1,0 +1,22 @@
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.delete{
+    color: #fffdfd;
+background-color: red;
+border-radius: 5px;
+}
+li{
+    border-width: 1px;
+    border-style: dotted;
+    background-color: rgb(237, 235, 235);
+}
+.container{
+ border-width: 2px;
+ border-style: solid;
+background-color: rgb(209, 209, 209);
+}
+.card{
+    margin: 5%;
+}
