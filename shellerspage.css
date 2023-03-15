@@ -6,11 +6,15 @@
     color: #fffdfd;
 background-color: red;
 border-radius: 5px;
+
+float: right;
 }
 li{
     border-width: 1px;
     border-style: dotted;
     background-color: rgb(237, 235, 235);
+    padding:10px;
+    
 }
 .container{
  border-width: 2px;
